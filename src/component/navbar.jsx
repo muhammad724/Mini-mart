@@ -9,10 +9,9 @@ const Navbar = () => {
       <nav className="relative bg-black text-white after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
-            {/* Brand */}
+          
             <span className="text-xl font-bold">Mini-Mart</span>
 
-            {/* Desktop Links */}
             <div className="hidden sm:block ml-12">
               <div className="flex space-x-6">
                 <Link
@@ -42,7 +41,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            {/* Mobile Menu Button */}
+            
             <div className="sm:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
@@ -54,7 +53,6 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile Dropdown */}
         {isOpen && (
           <div className="sm:hidden px-2 pb-3 space-y-1 bg-gray-900">
             <Link

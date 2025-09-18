@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../component/Navbar'
+import Navbar from '../component/navbar.jsx'
 
 const ContactUs = () => {
     return (
@@ -7,7 +7,7 @@ const ContactUs = () => {
       <Navbar/>
       <section className="bg-white text-slate-900 px-6 py-16 lg:py-24">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
-        {/* Contact Info */}
+       
         <div className="space-y-6">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-emerald-600">
             Get in Touch

@@ -1,4 +1,4 @@
-import Navbar from "../component/Navbar";
+import Navbar from "../component/navbar.jsx";
 import React from "react";
 import bgimage from "../assets/kk.jpg"
 const AboutUs = () => {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Navbar02 from '../component/Navbar02'
+import Navbar02 from '../component/Navbar02.jsx'
 import axios from 'axios'
 import { Link } from 'react-router'
 
