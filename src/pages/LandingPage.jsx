@@ -1,14 +1,13 @@
 import React from "react";
 import { Link } from "react-router"; 
-import bg from "../assets/bg.jpg";
 import "../App.css"
 
 const LandingPage = () => {
   return (
-    <div
-      className="relative h-screen w-full bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: `url(${bg})` }}
-    >
+ <div
+  className="relative h-screen w-full bg-gradient-to-b from-gray-900 via-gray-800 to-black flex items-center justify-center"
+>
+
       
       <div className="absolute inset-0 bg-black/50"></div>
 
